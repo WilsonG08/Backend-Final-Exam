@@ -4,6 +4,9 @@
   "type": "module",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src/index.js --ignore client",
     "start": "cross-env NODE_ENV=production node src/index.js"
